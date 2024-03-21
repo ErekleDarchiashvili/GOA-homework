@@ -27,40 +27,19 @@ print(erekles_list[0:3])
 print(erekles_list[1:4])
 
 
+#N2____________________________________________
 
 
+num = int(input("please enter an negative number: "))
 
-g = int(input("please enter an negative number: "))
+negative_numbers = []
 
+for i in range(num,0):
+    negative_numbers.append(i)
 
-for i in range(g,0):
-    print(i)
+print(negative_numbers)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#N3____________________________________________
 
 
 
@@ -68,7 +47,7 @@ full_name = "Erekle Darchiashvili"
 
 print(full_name[0:6])
 
-print(full_name[6:30])
+print(full_name[6:])
 
 
 
@@ -95,10 +74,8 @@ print(fav_films[-4:5])
 
 user = input("enter name of the academy you study at: ")
 
-right_choice = "Goa"
 
-
-if user[0] == right_choice[0]:
+if user[0] == "G" or user[0] == "g":
     print("Goa academy is the best choice")
 else:
     print("wrong choice")
