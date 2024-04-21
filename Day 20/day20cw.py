@@ -1,14 +1,13 @@
 #N3_________________________________
 
-# numbers = [ 1, 2, 3, 4, 5]
+numbers = [ 1, 2, 3, 4, 5]
+total = 0
 
-# total = 0
-
-# for i in numbers:
-#     total = i + total
-#     arithmetical_mean = total / len(numbers)
+for i in numbers:
+    total = i + total
+    arithmetical_mean = total / len(numbers)
  
-# print(arithmetical_mean)
+print(arithmetical_mean)
 
 
 #N4___________________________________
